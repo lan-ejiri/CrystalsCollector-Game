@@ -14,7 +14,7 @@ $(document).ready(function(){
   ];
 console.log(pictureArray);
 
-  //listening for keypresses
+  //  //listening for keypresses
   document.onkeyup = function(event) {
 
     //Determinses which key was pressed.
