@@ -82,7 +82,7 @@ console.log(pictureArray);
       goalScore = Math.floor(Math.random() *  120 + 19);
       $("#goalScore").text(goalScore);
       console.log("goal score: " + goalScore);
-      $("#crystals").empty();
+      $("#crystals").text("press space to play again");
     }
 
     //if user score goes over goal score, lose stuff
@@ -95,7 +95,7 @@ console.log(pictureArray);
       goalScore = Math.floor(Math.random() *  120 + 19);
       $("#goalScore").text(goalScore);
       console.log("goal score: " + goalScore);
-      $("#crystals").empty();
+      $("#crystals").text("press space to play again");
     }
 
   });
