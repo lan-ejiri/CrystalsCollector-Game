@@ -1,20 +1,50 @@
 body {
-    background-image: url("../images/cutcube.png");
+    background-image: url("../images/background.png");
 }
 
 .container {
-    background-color: lavenderblush;
+    /* background-color: lavenderblush; */
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 
 }
 
 .yourScore,.score,{
     width: 30%;
     margin: 10px 0 10px 0px;
+    text-align: center;
 }
 
 .header {
     width: 40%;
     margin: auto;
+}
 
+
+.pinkbackground {
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #eeceed;
+    border-style: outset;
+    border-color: #8a7989;
+    border-width: 3px;
+
+}
+
+#crystals{
+    text-align: center;
+}
+
+.crystal-image{
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.instructions {
+    padding: 15px;
 }
